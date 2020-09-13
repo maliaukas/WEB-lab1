@@ -18,11 +18,7 @@ public class VectorPrinter {
      * @param c третий вектор
      */
     public static void printCoplanar(Vector a, Vector b, Vector c) {
-        System.out.println("The following vectors:");
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.print("are ");
+        System.out.printf("The following vectors:\na = %s\nb = %s\nc = %s\nare ", a, b, c);
         if (!Vector.areCoplanar(a, b, c)) {
             System.out.print("not ");
         }
