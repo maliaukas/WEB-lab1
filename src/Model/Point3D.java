@@ -33,8 +33,9 @@ public class Point3D {
     /**
      * Метод, вычисляющий покоординатную разность двух точек.
      *
-     * @param p точка, вычитаемая из this
-     * @return возвращает новую точку, координаты которой - разность координат this и p
+     * @param p точка, вычитаемая из {@code this}
+     * @return возвращает новую точку, координаты которой -
+     * разность координат {@code this} и {@code p}
      */
     public Point3D sub(Point3D p) {
         return new Point3D(x - p.x, y - p.y, z - p.z);
@@ -43,8 +44,9 @@ public class Point3D {
     /**
      * Метод, вычисляющий покоординатную сумму двух точек.
      *
-     * @param p точка, прибавляемая к this
-     * @return возвращает новую точку, координаты которой - сумма координат this и p
+     * @param p точка, прибавляемая к {@code this}
+     * @return возвращает новую точку, координаты которой -
+     * сумма координат {@code this} и {@code p}
      */
     public Point3D add(Point3D p) {
         return new Point3D(x + p.x, y + p.y, z + p.z);
